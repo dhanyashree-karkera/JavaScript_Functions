@@ -79,8 +79,18 @@
 // console.log(h.sort());                      //[ 13, 21, 45, 86, 92 ]
 // console.log(h.reverse());                   //[ 92, 86, 45, 21, 13 ]
 
+//splice
+const I=[21,34,67,86,32]
+console.log(I.splice(2,1,23,24));  
+/*
+1-position to add
+2-no of elements to remove
+3-elements to be added
+*/
 
-
-
+//slice
+const j=[78,31,52,86,30]
+console.log(j.slice(1));                         //[ 31, 52, 86, 30 ]
+console.log(j.slice(0,3));                       //[ 78, 31, 52 ]
 
 
